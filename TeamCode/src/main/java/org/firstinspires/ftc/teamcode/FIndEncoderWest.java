@@ -44,6 +44,7 @@ public class FIndEncoderWest extends LinearOpMode {
             String data = "Lifting:" + lEn + "Grabber:" + gEn;
             telemetry.addData("Motors",data);
             telemetry.update();
+            //used this program to help us find the encoder values in our final code
 
         }
     }
